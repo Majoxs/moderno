@@ -28,6 +28,10 @@ $(function () {
     return false;
   });
 
+  //costomize selects
+
+  $('input[type="file"], select').styler();
+
   //menu
 
   $('.menu__btn').on('click', function () {
